@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KuroVerse: recensioni, classifiche, teorie e approfondimenti su anime e manga.">
+  <meta name="theme-color" content="#0a0b10">
+  <title>KuroVerse — Anime, manga e cultura otaku</title>
+  <style>
+    :root{--bg:#090b10;--panel:#12151e;--panel2:#181c27;--text:#f4f5f8;--muted:#aab0bf;--red:#f04452;--line:#2a3040;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% -10%,#32101a 0,transparent 34%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:3px solid #ff8b95;outline-offset:3px}.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#090b10eF;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.45rem;font-weight:900;letter-spacing:-.06em}.brand span{color:var(--red)}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{font-size:.92rem;color:var(--muted)}nav a:hover{color:white}
+    .hero{padding:68px 0 46px;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}.eyebrow{color:#ff6874;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800}.hero h1{font-size:clamp(2.6rem,6vw,5rem);line-height:.99;letter-spacing:-.065em;margin:14px 0 20px}.hero h1 em{font-style:normal;color:var(--red)}.hero p{color:var(--muted);max-width:600px;font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border-radius:10px;font-weight:750;border:1px solid var(--line)}.btn.primary{background:var(--red);border-color:var(--red);color:white}.btn.secondary{background:var(--panel)}
+    .hero-art{min-height:330px;border-radius:22px;border:1px solid #49202b;background:linear-gradient(145deg,#25101b,#10131d 56%,#390d18);position:relative;overflow:hidden;display:grid;place-items:center}.moon{width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9aa1,#f04452 42%,#7c1428 75%);box-shadow:0 0 90px #f0445240;position:absolute;right:12%;top:14%}.slash{position:absolute;width:145%;height:24px;background:#080a10;transform:rotate(-42deg);box-shadow:0 34px 0 #080a10,0 -34px 0 #080a10}.art-label{position:absolute;bottom:22px;left:22px;font-weight:900;font-size:1.6rem;letter-spacing:-.04em}.art-label small{display:block;color:#c3c6d0;font-size:.78rem;letter-spacing:.15em}
+    section{padding:34px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:20px}.section-head h2{font-size:1.8rem;line-height:1.1;letter-spacing:-.04em;margin:0}.section-head p{margin:7px 0 0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:22px;min-height:225px;display:flex;flex-direction:column;transition:transform .18s,border-color .18s}.card:hover{transform:translateY(-3px);border-color:#77313e}.tag{font-size:.72rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase;color:#ff727d}.card h3{font-size:1.25rem;line-height:1.25;margin:12px 0 9px}.card p{color:var(--muted);font-size:.94rem;margin:0 0 18px}.read{margin-top:auto;color:#ff7a84;font-weight:750;font-size:.9rem}.about{display:grid;grid-template-columns:1fr 1fr;gap:24px}.about-box{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:25px}.about-box h3{margin-top:0}.about-box p,.about-box li{color:var(--muted)}.notice{border-left:3px solid var(--red);padding:12px 16px;background:#160f16;border-radius:0 10px 10px 0;color:#c7c9d2;font-size:.9rem}
+    footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem;margin-top:30px}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:760px){.nav{align-items:flex-start;padding:16px 0;flex-direction:column}.hero{grid-template-columns:1fr;padding-top:42px}.hero-art{min-height:250px}.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}nav{gap:14px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="KuroVerse home">Kuro<span>Verse</span></a>
+    <nav aria-label="Navigazione principale">
+      <a href="#articoli">Articoli</a><a href="#anime">Anime</a><a href="#manga">Manga</a><a href="#chi-siamo">Il progetto</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="wrap hero" id="home">
+    <div>
+      <div class="eyebrow">Anime · Manga · Cultura otaku</div>
+      <h1>Dove nascono le storie <em>più epiche.</em></h1>
+      <p>Recensioni, teorie, classifiche e approfondimenti sul mondo degli anime e manga. Un piccolo spazio per condividere la passione, una storia alla volta.</p>
+      <div class="actions"><a class="btn primary" href="#articoli">Esplora gli articoli ↘</a><a class="btn secondary" href="#chi-siamo">Scopri KuroVerse</a></div>
+    </div>
+    <div class="hero-art" role="img" aria-label="Grafica astratta nera e rossa ispirata all'estetica anime">
+      <div class="moon"></div><div class="slash"></div>
+      <div class="art-label">KUROVERSE<small>IL LATO OSCURO DELLE STORIE</small></div>
+    </div>
+  </section>
+  <section class="wrap" id="articoli">
+    <div class="section-head"><div><div class="eyebrow">Dal blog</div><h2>Primi articoli</h2><p>Spunti per cominciare a esplorare il nostro universo.</p></div></div>
+    <div class="grid">
+      <article class="card" id="anime"><div class="tag">Analisi · Anime</div><h3>Black Clover: il valore di non arrendersi</h3><p>Una riflessione sulla determinazione di Asta, sulla rivalità con Yuno e su cosa significhi inseguire un sogno.</p><a class="read" href="mailto:INSERISCI-LA-TUA-EMAIL?subject=KuroVerse%20-%20Black%20Clover">Proponi un approfondimento ↗</a></article>
+      <article class="card"><div class="tag">Classifica · Anime</div><h3>5 anime che ti danno la carica</h3><p>Una lista personale di storie piene di energia, crescita e momenti che restano impressi.</p><a class="read" href="mailto:INSERISCI-LA-TUA-EMAIL?subject=KuroVerse%20-%20Anime%20da%20scoprire">Suggerisci un titolo ↗</a></article>
+      <article class="card" id="manga"><div class="tag">Guida · Manga</div><h3>Da quale manga iniziare?</h3><p>Consigli per chi vuole avvicinarsi al mondo dei manga, scegliendo in base ai propri gusti.</p><a class="read" href="mailto:INSERISCI-LA-TUA-EMAIL?subject=KuroVerse%20-%20Consigli%20manga">Chiedi un consiglio ↗</a></article>
+    </div>
+  </section>
+  <section class="wrap" id="chi-siamo">
+    <div class="about">
+      <div class="about-box"><div class="eyebrow">Il progetto</div><h3>Benvenuto su KuroVerse.</h3><p>KuroVerse è un blog indipendente dedicato agli anime e ai manga: recensioni, opinioni, teorie e guide per scoprire nuove storie. I contenuti sono pensati per essere chiari, originali e aperti a tutti.</p></div>
+      <div class="about-box"><h3>Una nota sui contenuti</h3><p>Le opinioni pubblicate sono personali. Prima di pubblicare un articolo, aggiungi le tue idee e verifica i fatti. Usa immagini create da te, con licenza adatta o autorizzate all'uso; non caricare scansioni o pagine complete di opere protette.</p><div class="notice">Questo è un modello iniziale: sostituisci i testi di esempio e l'indirizzo email prima di condividerlo.</div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© KuroVerse · Blog indipendente di anime e manga</span><span>Creato con passione, pubblicato su GitHub Pages.</span></div></footer>
+</body>
+</html>
